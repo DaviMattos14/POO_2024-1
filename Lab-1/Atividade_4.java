@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class Atividade_4 {
     static int factorial( int n ) {
         return n != 0 ? n * factorial(n-1) : 1;
