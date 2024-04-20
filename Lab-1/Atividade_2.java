@@ -1,5 +1,5 @@
 import java.util.*;
-public class AtividDaade_2 {
+public class Atividade_2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
