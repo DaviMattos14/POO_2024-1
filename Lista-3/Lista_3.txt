@@ -1,0 +1,19 @@
+
+Lista 3
+Questões Teóricas
+
+1)
+    É uma forma de garantir que os dados "sensíveis" sejam escondidos dos usuários.
+    Isso possibilita que modificações no sistema possam ser feitas de maneira mais cirurgicas, 
+    sem que uma funcionalidade esteja espalhada por diversas partes do sistema.
+2)
+    O modificador public permite que a classe seja acesada por outras classes
+    Enquanto o default a classe so pode ser acessada por classes no mesmo 
+    pacote.
+3) 
+    É uma forma de agrupar classes relacionadas evitando conflito de nomes, 
+    algo como arquivos em uma pasta.
+4) 
+    Referenciar atributos da classe
+
+
