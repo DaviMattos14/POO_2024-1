@@ -1,3 +1,9 @@
+1. Herança -> Uma classe herda os atributos e metodos  (características) de uma outra classe (Relação Pai-Filho)
+    Agregação -> Um classe compôe/ faz parte de outra classe (Relação Carro-Motor)
+    Composição -> Uma classe em que um objeto é criado através de outros objeto (Classe 1 tem classe 2)
+2. Classes abstratas são classes que não podem ser instanciadas, normalmente usadas com Herança para garantir que a classe filhe herde os atributos e metodos da classe pai.
+3. Pode Uma classe abstrata pode definir métodos e comportamentos que são compartilhados entre suas subclasses, e uma subclasse abstrata pode adicionar mais abstrações ou implementações específicas para suas próprias subclasses.
+4. --Implementar código
 5. São exibidas 2 duas mensagens, ambas do Carro VW
 6. O código retornou erro, acusando que a lista está vazia.
 7. A lista foi apagada mas o carros ainda existem.
