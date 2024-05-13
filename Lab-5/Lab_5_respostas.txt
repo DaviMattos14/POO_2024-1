@@ -1,0 +1,8 @@
+5. São exibidas 2 duas mensagens, ambas do Carro VW
+6. O código retornou erro, acusando que a lista está vazia.
+7. A lista foi apagada mas o carros ainda existem.
+8. --Implementar código
+9. As mensagens produzidas se referem a Veiculo e Veiculo Terrestre,
+pois são as duas classes as quais a Classe Onibus herda.
+10. Remoção da l:10 na Classe Onibus;
+11. --Implementar código
