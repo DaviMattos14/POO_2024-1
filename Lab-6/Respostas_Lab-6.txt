@@ -1,0 +1,26 @@
+1. Diferencie classe abstrata e interface.
+    interface -> somente public static final | só pode ter métodos abstratos 
+                Não pode conter métodos estáticos | É vista como um contrato
+    
+    classe abstrata -> pode ter qualquer atributo | pode ter métodos abstraros e concretos
+                    Pode conter métodos estáticos | Usada somente com relação “é um”
+
+2. Para que servem os tipos genéricos no Java?
+    Servem para permitir que classes, interfaces e métodos operem com tipos especificados pelo usuário 
+    ao invés de tipos específicos, proporcionando maior flexibilidade e segurança de tipos.
+    Pode ser vista como um “template” que define o tipo de dado usado somente em tempo de execução
+
+3. O que são padrões de projeto? Qual sua importância em POO?
+    São soluções reutilizáveis para problemas comuns que ocorrem no desenvolvimento de software orientado a objetos (POO). 
+    Eles representam boas práticas e são baseados na experiência de desenvolvedores de software. 
+    Os padrões de projeto não são implementações específicas, mas sim descrições de como solucionar um problema de design de forma eficaz.
+
+4. Explique o padrão Singleton com suas palavras e destaque o que é preciso fazer na classe para ela se tornar um Singleton.
+    Padrão Singleton é um padrão de criação que assegura que uma classe tenha apenas uma instância 
+    e fornece um ponto global de acesso a essa instância. 
+    Este padrão é útil quando exatamente um objeto é necessário para coordenar ações no sistema.
+
+5. Explique o padrão de projeto Factory destacando a principal vantagem de se usar esse padrão e os cuidados que o programador precisa ter.
+    Padrão Factory (ou Factory Method) é um padrão de criação que define uma interface para criar objetos em uma superclasse, 
+    mas permite que subclasses alterem o tipo de objetos que serão criados. 
+    Ele é usado para instanciar objetos sem expor a lógica de criação ao cliente e referenciar a nova classe criada por meio de uma interface comum.
