@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Random;
-
 // Definição da classe Carta
 public class Carta implements Printavel {
 
@@ -34,7 +31,7 @@ public class Carta implements Printavel {
 
         @Override
         public String toString() {
-            return tipoNaipe.name().toLowerCase();
+            return tipoNaipe.name();
         }
     }
 
@@ -50,7 +47,7 @@ public class Carta implements Printavel {
     // Implementação do método imprimir da interface Printavel
     @Override
     public String Imprimir() {
-        return numero.name().toLowerCase() + " de " + naipe.toString();
+        return numero.name() + " de " + naipe.toString();
     }
 
     // Getter para o número da carta

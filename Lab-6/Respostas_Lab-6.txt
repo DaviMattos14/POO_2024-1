@@ -1,10 +1,12 @@
 1. Diferencie classe abstrata e interface.
     interface -> somente public static final | só pode ter métodos abstratos 
                 Não pode conter métodos estáticos | É vista como um contrato
-    
+                Uma classe pode implementar várias
+
     classe abstrata -> pode ter qualquer atributo | pode ter métodos abstraros e concretos
                     Pode conter métodos estáticos | Usada somente com relação “é um”
-
+                    Uma classe só pode herdar de uma
+                    
 2. Para que servem os tipos genéricos no Java?
     Servem para permitir que classes, interfaces e métodos operem com tipos especificados pelo usuário 
     ao invés de tipos específicos, proporcionando maior flexibilidade e segurança de tipos.
