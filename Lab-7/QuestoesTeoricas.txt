@@ -1,0 +1,68 @@
+Questões Teóricas
+
+1) Explique o padrão de projeto Observer em sua versão mais básica.
+
+O padrão Observer consiste em uma lista de assinantes, em uma classe que produz eventos.
+Cada assiante implementa uma interface de atualização de evento.
+Quando um evento ocorre,cada observador nesta lista é "notificado" desta atualização.
+
+2) No padrão Observer, quais os benefícios de se implementar uma interface Emissor
+nas classes que são observadas?
+
+A separação entre a modelagem da classe e o padrão Observer fica mais clara.
+Não há mais o risco de esquecer de implementar algum método.
+É possivel manipular emissores em conjuntos
+E melhora a semantica de dados.
+
+3) Qual a diferença entre o padrão Observer clássico e o padrão Lazy Observer?
+
+No padrão Observer clássico, a emisssão de eventos é em tempo real, 
+ou seja, os observadores são notificados na mesma hora 
+no padrão Lazy Observer, a emissão de eventos é reativa.
+Emissor não emite mais o dado em si, mas apenas um aviso de que “há
+novidades”.
+
+4) Em qual contexto o padrão Lazy Observer se faz muito mais vantajoso que o
+Observer tradicional?
+
+No contexto em que a taxa de emissão de eventos 
+é muito mais alta que a taxa em que seu observador age em função.
+
+Desempenho: Notificações frequentes podem ser caras em termos de desempenho.
+Eficiência: Em sistemas onde nem todos os observadores precisam da atualização imediatamente 
+
+5) Qual a diferença fundamental entre uma lista (List) e um conjunto (Set) da API
+Collections do Java?
+
+A diferença entre uma lista e um conjunto é que o conjunto não permite valores repetidos,
+equanto em uma lista pode.
+
+6) Em POO, o que são exceções? Qual o principal motivo para se usar exceções em
+um programa?
+
+Uma exceção é um evento que, dentro de um fluxo de negócio, é inesperado ou de outro modo estranho.
+
+Exceções são eventos anômalos ou condições de erro que ocorrem durante a execução de um programa. 
+
+Um código tem um comportamento esperado, mas nem sempre quando ocorre um comportamento inesperado, 
+ele irá retornar um erro.
+
+Permite que métodos propagam erros para quem os chamou, 
+em vez de serem forçados a tratá-los imediatamente.
+
+7) Como no Java é possível criar uma exceção personalizada?
+
+Criando uma classe que herda de Exception ou RuntimeException.
+
+8) Qual a diferença entre lançar uma exceção e tratar uma exceção?
+
+Tratar uma exceção, é forma capturar e lidar com a exceção lançada
+Lançar uma exceção é sinalizar que ocorreu um erro ou condição anômala, 
+mesmo que o código esteja compilando normalmente e sem erros.  
+
+9) Qual a diferença entre exceções checked e exceções unchecked?
+
+Exceções unchecked são erros que ocorrem em tempo de execução, 
+e não são verificadas pelo compilador em tempo de compilação. O tratamento é opcional.
+Exceções checked obrigam o método chamador a tratar a exceção, 
+caso não seja tratado, o código não compila. 

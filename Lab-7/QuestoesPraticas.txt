@@ -1,0 +1,40 @@
+Questões Praticas
+
+1)
+
+a.
+inicio da main
+inicio do metodo1
+inicio do metodo2
+inicio do metodo3
+fim do metodo3   
+fim do metodo2   
+fim do metodo1   
+fim da main
+
+b.
+inicio da main
+inicio do metodo1
+inicio do metodo2
+inicio do metodo3
+Exceção indice fora do limites capturada // Exceção lançada no metpodo 3 e capturada no método 1
+fim da main
+
+c.
+inicio da main
+inicio do metodo1
+inicio do metodo2
+inicio do metodo3
+Exceção ponteiro nulo capturada // Exceção lançada no metpodo 3 e capturada no método 2
+fim do metodo1 // Termina o metodo 1
+fim da main
+
+d.
+inicio da main
+inicio do metodo1
+inicio do metodo2
+inicio do metodo3
+Exceção erro aritmetico capturada // Exceção lançada no metpodo 3 e capturada no método 3
+fim do metodo2 // Termina o metodo 2
+fim do metodo1 // Termina o metodo 1
+fim da main
